@@ -2,11 +2,12 @@ package publish2
 
 import (
 	"fmt"
-	"html/template"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/roles"
+	"github.com/simonedbarber/go-template/html/template"
+
+	"github.com/simonedbarber/admin"
+	"github.com/simonedbarber/qor"
+	"github.com/simonedbarber/roles"
 )
 
 type controller struct {

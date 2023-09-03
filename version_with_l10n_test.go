@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jinzhu/gorm"
-	"github.com/qor/l10n"
-	"github.com/qor/publish2"
+	"github.com/simonedbarber/l10n"
+	"github.com/simonedbarber/publish2"
+	"gorm.io/gorm"
 )
 
 var dbGlobal, dbCN, dbEN *gorm.DB

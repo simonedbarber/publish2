@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/jinzhu/gorm"
-	"github.com/qor/qor"
-	"github.com/qor/qor/utils"
+	"github.com/simonedbarber/qor"
+	"github.com/simonedbarber/qor/utils"
+	"gorm.io/gorm"
 )
 
 func getPublishScheduleTime(context *qor.Context) string {

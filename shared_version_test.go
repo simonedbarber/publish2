@@ -3,8 +3,8 @@ package publish2_test
 import (
 	"testing"
 
-	"github.com/jinzhu/gorm"
-	"github.com/qor/publish2"
+	"github.com/go-gorm/gorm"
+	"github.com/simonedbarber/publish2"
 )
 
 type SharedVersionProduct struct {

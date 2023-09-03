@@ -1,9 +1,9 @@
 package publish2_test
 
 import (
-	"github.com/qor/l10n"
-	"github.com/qor/publish2"
-	"github.com/qor/qor/test/utils"
+	"github.com/simonedbarber/l10n"
+	"github.com/simonedbarber/publish2"
+	"github.com/simonedbarber/qor/test/utils"
 )
 
 var DB = utils.TestDB()

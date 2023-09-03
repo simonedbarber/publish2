@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jinzhu/gorm"
-	"github.com/qor/qor/utils"
+	"github.com/simonedbarber/qor/utils"
+	"gorm.io/gorm"
 )
 
 const (
