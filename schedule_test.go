@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-gorm/gorm"
 	"github.com/simonedbarber/publish2"
+	"gorm.io/gorm"
 )
 
 type Discount struct {
